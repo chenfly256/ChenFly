@@ -6,3 +6,6 @@ This chapter mainly introduces the entire flight control software framework thro
 
 ## Chapter2
 This chapter adds a switching power supply circuit, and the battery voltage can be read through the ADC of STM32.
+
+## Chapter3
+This chapter adds the function of PWM control motor and the function of analyzing SBUS, and creates an APP to communicate with the flight control.
