@@ -14,3 +14,6 @@ This chapter adds a switching power supply circuit, and the battery voltage can 
 
 ## Chapter3
 This chapter adds the function of PWM control motor and the function of analyzing SBUS, and creates an APP to communicate with the flight control.
+
+## Chapter4
+In this chapter, we analyzed the angle of IMU and achieved the first flight through PID control.
