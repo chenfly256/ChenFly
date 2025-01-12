@@ -17,3 +17,6 @@ This chapter adds the function of PWM control motor and the function of analyzin
 
 ## Chapter4
 In this chapter, we analyzed the angle of IMU and achieved the first flight through PID control.
+
+## Chapter5
+In this chapter, the flight controller can now fly steadily.
