@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1363146026@qq.com, 1, LIC=LJWBS-LLK8N-EYYVT-R96UV-10VQH-9DN87
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+F:\Download\ChenFly\MDK-ARM\ChenFly.uvprojx
+Project File Date:  04/08/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'ChenFly'
+compiling cmavlink.c...
+../Core/Inc/cmavlink.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mavlink2\common\common.h(143): warning:  #66-D: enumeration value is out of "int" range
+     MAV_SYS_STATUS_EXTENSION_USED=2147483648, /* 0x80000000 Extended bit-field are used for further sensor status bits (needs to be set in onboard_control_sensors_present only) | */
+..\mavlink2\common\common.h(144): warning:  #66-D: enumeration value is out of "int" range
+     MAV_SYS_STATUS_SENSOR_ENUM_END=2147483649, /*  | */
+..\mavlink2\common\common.h(2580): warning:  #66-D: enumeration value is out of "int" range
+     HIL_SENSOR_UPDATED_RESET=2147483648, /* Full reset of attitude/position/velocities/etc was performed in sim (Bit 31). | */
+..\mavlink2\common\common.h(2581): warning:  #66-D: enumeration value is out of "int" range
+     HIL_SENSOR_UPDATED_FLAGS_ENUM_END=2147483649, /*  | */
+..\Core\Src\cmavlink.c(119): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\cmavlink.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=26188 RO-data=3700 RW-data=624 ZI-data=5472  
+FromELF: creating hex file...
+"ChenFly\ChenFly.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM::CMSIS:CORE:5.5.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\Download\ChenFly\MDK-ARM\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
+      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
